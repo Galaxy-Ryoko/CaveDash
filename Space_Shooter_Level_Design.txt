@@ -1,0 +1,79 @@
+SPACE SHOOTER LEVEL DESIGN
+=========================
+
+ENEMY TYPES
+-----------
+1. Scour - Basic cannon-fodder ship
+2. Fighter - Faster, more aggressive attacker
+3. Bomber - Slow, high-health, drops explosive shots
+4. Support Ship - Heals or buffs nearby enemies
+5. Torpedo Ship - Long-range heavy projectile attacks
+6. Frigate - Mini-boss class vessel
+7. Battlecruiser - Heavy capital ship
+8. Dreadnought - End-of-level boss
+
+LEVEL 1: FIRST CONTACT
+----------------------
+Wave 1: 10 Scours
+Wave 2: 10 Scours
+Wave 3: 8 Scours, 2 Fighters
+Wave 4: 6 Scours, 4 Fighters
+Wave 5: 10 Fighters
+Wave 6: 8 Fighters, 2 Bombers
+Wave 7: 6 Fighters, 4 Bombers
+Wave 8: 10 Bombers
+Wave 9: 8 Bombers, 2 Support Ships
+Wave 10: 6 Bombers, 4 Support Ships
+Wave 11: 10 Support Ships
+Wave 12: Frigate (Mini Boss)
+
+LEVEL 2: ESCALATION
+-------------------
+Wave 13: 6 Fighters, 4 Support Ships
+Wave 14: 8 Fighters, 2 Torpedo Ships
+Wave 15: 6 Fighters, 4 Torpedo Ships
+Wave 16: 10 Torpedo Ships
+Wave 17: 4 Bombers, 4 Support Ships, 2 Torpedo Ships
+Wave 18: 8 Bombers, 4 Torpedo Ships
+Wave 19: 12 Mixed Fighters
+Wave 20: 2 Frigates
+
+LEVEL 3: FLEET ACTION
+---------------------
+Wave 21: 12 Fighters
+Wave 22: 8 Fighters, 4 Bombers
+Wave 23: 6 Bombers, 4 Support Ships
+Wave 24: 6 Torpedo Ships, 6 Fighters
+Wave 25: 4 Frigates, 8 Fighters
+Wave 26: 2 Frigates, 6 Bombers, 6 Fighters
+Wave 27: Battlecruiser with 8 Fighter Escorts
+
+LEVEL 4: CAPITAL SHIP OFFENSIVE
+-------------------------------
+Wave 28: 2 Battlecruisers
+Wave 29: Battlecruiser, 2 Frigates, 8 Fighters
+Wave 30: 2 Battlecruisers, 4 Torpedo Ships
+Wave 31: 3 Frigates, 6 Support Ships
+Wave 32: Battlecruiser, 12 Mixed Escorts
+Wave 33: 3 Battlecruisers
+
+FINAL ASSAULT
+-------------
+Wave 34: 2 Battlecruisers, 4 Frigates
+Wave 35: 4 Frigates, 8 Torpedo Ships
+Wave 36: Battlecruiser, 2 Frigates, 12 Fighters
+Wave 37: 2 Battlecruisers, 12 Mixed Ships
+Wave 38: Dreadnought Phase 1
+Wave 39: Dreadnought Phase 2 (launches Fighters)
+Wave 40: Dreadnought Phase 3 (launches Bombers and uses Super Weapon)
+
+SPAWN RULES
+-----------
+A wave must be completely defeated or all enemies must pass the player before the next wave spawns.
+
+Wave Starts
+ -> Enemies Spawn
+ -> Player Destroys Enemies OR Enemies Leave Screen
+ -> Wave Complete
+ -> 2 Second Delay
+ -> Next Wave Starts

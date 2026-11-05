@@ -1,0 +1,10 @@
+/CaveDash.exe
+/highscore.txt
+/.vs/
+/Debug/
+/Release/
+/x64/
+/Win32/
+*.obj
+*.pdb
+*.ilk
