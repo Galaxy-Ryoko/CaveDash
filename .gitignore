@@ -5,6 +5,8 @@
 /Release/
 /x64/
 /Win32/
+/build/
+/vcpkg_installed/
 *.obj
 *.pdb
 *.ilk

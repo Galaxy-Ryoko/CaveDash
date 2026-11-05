@@ -1,0 +1,8 @@
+{
+  "name": "cavedash",
+  "version-string": "0.5",
+  "builtin-baseline": "29718cfec805208b4e2d80ed91e681143b488dd7",
+  "dependencies": [
+    "zlib"
+  ]
+}

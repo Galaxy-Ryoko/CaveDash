@@ -425,10 +425,10 @@ namespace
 
     int RandomSmallType()
     {
-        std::vector<int> small;
+        std::vector<int> smallTypes;
         for (size_t i = 0; i < enemyTypes.size(); ++i)
-            if (enemyTypes[i].power <= 3 && enemyTypes[i].faction == roundNo) small.push_back(static_cast<int>(i));
-        return small.empty() ? 0 : small[Rand(0, static_cast<int>(small.size()) - 1)];
+            if (enemyTypes[i].power <= 3 && enemyTypes[i].faction == roundNo) smallTypes.push_back(static_cast<int>(i));
+        return smallTypes.empty() ? 0 : smallTypes[Rand(0, static_cast<int>(smallTypes.size()) - 1)];
     }
 
     void SpawnFormation(const RECT& rc, ULONGLONG now, size_t type, int count)
